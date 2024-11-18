@@ -1,8 +1,8 @@
 {
-    "name": "aacotroneo/laravel-saml2",
-    "description": "A Laravel package for Saml2 integration as a SP (service provider) for multiple IdPs, based on OneLogin toolkit which is much more lightweight than simplesamlphp.",
+    "name": "ht2-labs/laravel-saml2",
+    "description": "Fork of aacotroneo/laravel-saml2. Used for SAML2 Login, kept up to date for products using it since laravel 5",
     "keywords": ["laravel","saml", "saml2", "onelogin"],
-    "homepage": "https://github.com/aacotroneo/laravel-saml2",
+    "homepage": "https://github.com/HT2-Labs/laravel-saml2",
     "license": "MIT",
     "version": "2.1.0",
     "authors": [
@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",
+        "php": ">=8.1.0",
         "ext-openssl": "*",
         "illuminate/support": ">=5.0.0",
         "onelogin/php-saml": "^3.0.0"
